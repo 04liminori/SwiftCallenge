@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D78FC01C5518040046F08B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D78FBF1C5518040046F08B /* AppDelegate.swift */; };
+		42D78FC21C5518040046F08B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D78FC11C5518040046F08B /* ViewController.swift */; };
+		42D78FC51C5518040046F08B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D78FC31C5518040046F08B /* Main.storyboard */; };
+		42D78FC71C5518040046F08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D78FC61C5518040046F08B /* Assets.xcassets */; };
+		42D78FCA1C5518040046F08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D78FC81C5518040046F08B /* LaunchScreen.storyboard */; };
+		42D78FD51C5518040046F08B /* CallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D78FD41C5518040046F08B /* CallengeTests.swift */; };
+		42D78FE01C5518040046F08B /* CallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D78FDF1C5518040046F08B /* CallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42D78FD11C5518040046F08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D78FB41C5518040046F08B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D78FBB1C5518040046F08B;
+			remoteInfo = Callenge;
+		};
+		42D78FDC1C5518040046F08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42D78FB41C5518040046F08B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D78FBB1C5518040046F08B;
+			remoteInfo = Callenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42D78FBC1C5518040046F08B /* Callenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Callenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D78FBF1C5518040046F08B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42D78FC11C5518040046F08B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42D78FC41C5518040046F08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42D78FC61C5518040046F08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42D78FC91C5518040046F08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42D78FCB1C5518040046F08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D78FD01C5518040046F08B /* CallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D78FD41C5518040046F08B /* CallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallengeTests.swift; sourceTree = "<group>"; };
+		42D78FD61C5518040046F08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D78FDB1C5518040046F08B /* CallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D78FDF1C5518040046F08B /* CallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallengeUITests.swift; sourceTree = "<group>"; };
+		42D78FE11C5518040046F08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D78FB91C5518040046F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D78FCD1C5518040046F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D78FD81C5518040046F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D78FB31C5518040046F08B = {
+			isa = PBXGroup;
+			children = (
+				42D78FBE1C5518040046F08B /* Callenge */,
+				42D78FD31C5518040046F08B /* CallengeTests */,
+				42D78FDE1C5518040046F08B /* CallengeUITests */,
+				42D78FBD1C5518040046F08B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D78FBD1C5518040046F08B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D78FBC1C5518040046F08B /* Callenge.app */,
+				42D78FD01C5518040046F08B /* CallengeTests.xctest */,
+				42D78FDB1C5518040046F08B /* CallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D78FBE1C5518040046F08B /* Callenge */ = {
+			isa = PBXGroup;
+			children = (
+				42D78FBF1C5518040046F08B /* AppDelegate.swift */,
+				42D78FC11C5518040046F08B /* ViewController.swift */,
+				42D78FC31C5518040046F08B /* Main.storyboard */,
+				42D78FC61C5518040046F08B /* Assets.xcassets */,
+				42D78FC81C5518040046F08B /* LaunchScreen.storyboard */,
+				42D78FCB1C5518040046F08B /* Info.plist */,
+			);
+			path = Callenge;
+			sourceTree = "<group>";
+		};
+		42D78FD31C5518040046F08B /* CallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				42D78FD41C5518040046F08B /* CallengeTests.swift */,
+				42D78FD61C5518040046F08B /* Info.plist */,
+			);
+			path = CallengeTests;
+			sourceTree = "<group>";
+		};
+		42D78FDE1C5518040046F08B /* CallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42D78FDF1C5518040046F08B /* CallengeUITests.swift */,
+				42D78FE11C5518040046F08B /* Info.plist */,
+			);
+			path = CallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D78FBB1C5518040046F08B /* Callenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D78FE41C5518040046F08B /* Build configuration list for PBXNativeTarget "Callenge" */;
+			buildPhases = (
+				42D78FB81C5518040046F08B /* Sources */,
+				42D78FB91C5518040046F08B /* Frameworks */,
+				42D78FBA1C5518040046F08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Callenge;
+			productName = Callenge;
+			productReference = 42D78FBC1C5518040046F08B /* Callenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42D78FCF1C5518040046F08B /* CallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D78FE71C5518040046F08B /* Build configuration list for PBXNativeTarget "CallengeTests" */;
+			buildPhases = (
+				42D78FCC1C5518040046F08B /* Sources */,
+				42D78FCD1C5518040046F08B /* Frameworks */,
+				42D78FCE1C5518040046F08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D78FD21C5518040046F08B /* PBXTargetDependency */,
+			);
+			name = CallengeTests;
+			productName = CallengeTests;
+			productReference = 42D78FD01C5518040046F08B /* CallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42D78FDA1C5518040046F08B /* CallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D78FEA1C5518040046F08B /* Build configuration list for PBXNativeTarget "CallengeUITests" */;
+			buildPhases = (
+				42D78FD71C5518040046F08B /* Sources */,
+				42D78FD81C5518040046F08B /* Frameworks */,
+				42D78FD91C5518040046F08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42D78FDD1C5518040046F08B /* PBXTargetDependency */,
+			);
+			name = CallengeUITests;
+			productName = CallengeUITests;
+			productReference = 42D78FDB1C5518040046F08B /* CallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D78FB41C5518040046F08B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fukumoriminori;
+				TargetAttributes = {
+					42D78FBB1C5518040046F08B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PK5W92DG95;
+					};
+					42D78FCF1C5518040046F08B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PK5W92DG95;
+						TestTargetID = 42D78FBB1C5518040046F08B;
+					};
+					42D78FDA1C5518040046F08B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PK5W92DG95;
+						TestTargetID = 42D78FBB1C5518040046F08B;
+					};
+				};
+			};
+			buildConfigurationList = 42D78FB71C5518040046F08B /* Build configuration list for PBXProject "Callenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D78FB31C5518040046F08B;
+			productRefGroup = 42D78FBD1C5518040046F08B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D78FBB1C5518040046F08B /* Callenge */,
+				42D78FCF1C5518040046F08B /* CallengeTests */,
+				42D78FDA1C5518040046F08B /* CallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D78FBA1C5518040046F08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D78FCA1C5518040046F08B /* LaunchScreen.storyboard in Resources */,
+				42D78FC71C5518040046F08B /* Assets.xcassets in Resources */,
+				42D78FC51C5518040046F08B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D78FCE1C5518040046F08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D78FD91C5518040046F08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D78FB81C5518040046F08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D78FC21C5518040046F08B /* ViewController.swift in Sources */,
+				42D78FC01C5518040046F08B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D78FCC1C5518040046F08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D78FD51C5518040046F08B /* CallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D78FD71C5518040046F08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D78FE01C5518040046F08B /* CallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42D78FD21C5518040046F08B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D78FBB1C5518040046F08B /* Callenge */;
+			targetProxy = 42D78FD11C5518040046F08B /* PBXContainerItemProxy */;
+		};
+		42D78FDD1C5518040046F08B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42D78FBB1C5518040046F08B /* Callenge */;
+			targetProxy = 42D78FDC1C5518040046F08B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42D78FC31C5518040046F08B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D78FC41C5518040046F08B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42D78FC81C5518040046F08B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D78FC91C5518040046F08B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D78FE21C5518040046F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42D78FE31C5518040046F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D78FE51C5518040046F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Callenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minori.Callenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42D78FE61C5518040046F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Callenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minori.Callenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42D78FE81C5518040046F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minori.CallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Callenge.app/Callenge";
+			};
+			name = Debug;
+		};
+		42D78FE91C5518040046F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minori.CallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Callenge.app/Callenge";
+			};
+			name = Release;
+		};
+		42D78FEB1C5518040046F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minori.CallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Callenge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42D78FEC1C5518040046F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minori.CallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Callenge;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D78FB71C5518040046F08B /* Build configuration list for PBXProject "Callenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D78FE21C5518040046F08B /* Debug */,
+				42D78FE31C5518040046F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D78FE41C5518040046F08B /* Build configuration list for PBXNativeTarget "Callenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D78FE51C5518040046F08B /* Debug */,
+				42D78FE61C5518040046F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42D78FE71C5518040046F08B /* Build configuration list for PBXNativeTarget "CallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D78FE81C5518040046F08B /* Debug */,
+				42D78FE91C5518040046F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42D78FEA1C5518040046F08B /* Build configuration list for PBXNativeTarget "CallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D78FEB1C5518040046F08B /* Debug */,
+				42D78FEC1C5518040046F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D78FB41C5518040046F08B /* Project object */;
+}
